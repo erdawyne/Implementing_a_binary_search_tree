@@ -49,6 +49,12 @@ namespace Implementing_a_binary_search_tree //membuat implementasi struktur data
                     parent.rchild = tmp;
             }
         }
+
+        internal string GetInOrderTraversal()
+        {
+            throw new NotImplementedException();
+        }
+
         public void find(string element, ref Node parent, ref Node currentNode)
         {
             /* This function finds the currentNode of the specified Node as well as the currentNode of its parent. */
